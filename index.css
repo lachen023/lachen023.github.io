@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';    
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    display: flex;
+}
+
+.menu {
+    position: absolute;
+    left: 325px;
+    height: 50px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-items {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.greeting {
+    text-align: center;
+}
+
+#hello-world {
+    color: #374A67;
+}
+
+#full-name {
+    color: #9E7B9B;
+}
+
+.intro {
+    min-width: 310px;
+    max-width: 310px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 5px 0px;
+    padding: 20px 30px;
+}
+
+.about-me {
+    line-height: 25px;
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+#linkedin, #email {
+    height: 30px;
+    width: 30px;
+    margin: 15px 10px;
+    padding: 5px;
+    border-radius: 50%;
+    border: .65px solid #DFDFDE;
+    background-color: white;
+}
+
+#linkedin:hover, #email:hover {
+    background-color: #9E7B9B;
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.project-img {
+    height: 400px;
+    width: 400px;
+    margin: 0px 20px;
+    border: .25px solid #DFDFDE;
+}
+
+#contact-page {
+    padding: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email-start, .email-end {
+    height: 20px;
+    padding: 20px 0;
+}
+
+#send-email-btn {
+    border: none;
+    height: 40px;
+    width: 150px;
+    padding: 5px 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    border-radius: 100px;
+    border: .65px solid #DFDFDE;
+    background-color: white;
+}
+
+#send-email-btn:hover {
+    background-color: #9E7B9B;
+    color: white;
+}
+
+#message-area {
+    min-width: 400px;
+    width: 400px;
+    height: 200px;
+}
+
+.form-handler {
+    height: 25px;
+    width: 400px;
+    margin: 5px auto;
+}
+
+.sender {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-width: 400px;
+    margin: 5px auto;
+}
